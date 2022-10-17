@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Inter:wght@400;700&family=Lexend+Deca&family=Outfit:wght@200&family=Space+Mono&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Epilogue', sans-serif;
+}
+html{
+    font-size: 10px;
+}
+
+body{
+    height:100vh;
+    width:100%;
+    background:rgb(227, 250, 20);
+    margin:auto;
+    
+}
+.box{
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    
+}
+.container{
+    height:33rem;
+    width:25rem;
+    background:#fff;
+    box-shadow: 5px 5px 31px rgba(0,0,0,0.08);
+    border-radius: 1.75%;
+    padding:2rem;
+    overflow-y:scroll ;
+    position:absolute;
+    top:12rem;
+}
+.container::-webkit-scrollbar{
+     display:none; /*To hide scrollbar */
+}
+
+.container form{
+    width:100%;
+    border:1px solid rgb(188, 130, 202);
+    border-radius: 1.88%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    
+
+}
+
+.container form input{
+    border:none;
+    outline:none;
+    box-shadow:none;
+    width:100%;
+    font-weight:500;
+    padding:0.4rem 1.3rem;
+
+}
+.container form i{
+    padding: 0.5rem;
+}
+.food-menu{
+    padding:1rem 0;
+}
+.foodItems{
+    display:flex;
+    align-items: center;
+    cursor:pointer;
+    padding-bottom:0.8rem ;
+}
+.foodItems img{
+    height:5rem;
+    width:5rem;
+    object-fit:cover;
+    border-radius:1%;
+    
+}
+.foodItems .details{
+    padding-left:1rem;
+}
+.foodItems .details h2{
+    color:rgb(19, 2, 58);
+    font-size:1.3rem;
+}
+.foodItems .details h3{
+    color:rgb(19, 2, 58);
+    font-size:1.2rem;
+}
+.imageSlider{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-box img{
+    height:23rem;
+    width:40rem;
+    object-fit: fit;
+    position:absolute;
+    top:12.5rem;
+    border:2px solid rgb(2, 15, 1);
+}
+button{
+    position:relative;
+    top:37rem;
+}
+.btn{
+    border:none;
+    outline:none;
+    background:#fff;
+    padding: 1rem 1rem;
+    color:rgb(70, 7, 141);
+    cursor:pointer;
+    
+}
+.btn:hover{
+    background:rgb(62, 110, 165);
+}
+@media screen and (max-width:962px) and (min-width:300px){
+    .box{
+        display:flex;
+        justify-content: center;
+        
+    }
+    .container{
+        position:absolute;
+        top:6rem;
+    }
+    .imageSlider{
+        position:absolute;
+        top:27rem;
+        left:4.5rem;
+    }
+    .image-box img{
+        width:30rem;
+}

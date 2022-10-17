@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search-Engine</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="box">
+     <section class="container">
+        <form>
+            <i class="fa fa-search"></i>
+            <input type="text" name="" id="search-item" placeholder="Search Food-Items" onkeyup="search()">
+        </form>
+        <div class="food-menu" id="food-menu">
+            <div class="foodItems">
+                <img src="momo.jpg" alt="food-image">
+                <div class="details">
+                    <h2>Steam momo</h2>
+                    <h3>$120</h3>
+                </div>
+            </div>
+            <div class="foodItems">
+                <img src="momo2.jpg" alt="food-image">
+                <div class="details">
+                    <h2>Chicken momo</h2>
+                    <h3>$160</h3>
+                </div>
+            </div>
+            <div class="foodItems">
+                <img src="noodles.jpg" alt="food-image">
+                <div class="details">
+                    <h2>Veg Noodles</h2>
+                    <h3>$100</h3>
+                </div>
+            </div>
+            <div class="foodItems">
+                <img src="keema noodles.jpg" alt="food-image">
+                <div class="details">
+                    <h2>keema noodles</h2>
+                    <h3>$150</h3>
+                </div>
+            </div>
+            <div class="foodItems">
+                <img src="pizza.jpg" alt="food-image">
+                <div class="details">
+                    <h2>Cheeze pizza</h2>
+                    <h3>$260</h3>
+                </div>
+            </div>
+            <div class="foodItems">
+                <img src="fry momo.jpg" alt="food-image">
+                <div class="details">
+                    <h2>Fry momo</h2>
+                    <h3>$130</h3>
+                </div>
+            </div>
+            <div class="foodItems">
+                <img src="Chicken.jpg" alt="food-image">
+                <div class="details">
+                    <h2>Chicken</h2>
+                    <h3>$360</h3>
+                </div>
+            </div>
+            <div class="foodItems">
+                <img src="biryani.jpg" alt="food-image">
+                <div class="details">
+                    <h2>Biryani</h2>
+                    <h3>$200</h3>
+                </div>
+            </div>
+            <div class="foodItems">
+                <img src="Double-chesse Burger.jpg" alt="food-image">
+                <div class="details">
+                    <h2>Double-chesse Burger</h2>
+                    <h3>$160</h3>
+                </div>
+            </div>
+
+        </div>
+     </section>
+    </div>
+    <div class="imageSlider">
+        <div class="image-box">
+            <img src="food-offer.jpg" alt="food-offer-banner-design/Image" name="slide">
+        </div>
+        <div class="buttons">
+          <button class="btn" onclick="prev()">Previous</button>
+          <button class="btn" onclick="next()">Next</button>
+         </div>
+    </div>
+    <div class="text">
+        <h1>Festive Season</h1>
+    </div>
+<script src="javaScript.js"></script>
+</body>
+</html>
